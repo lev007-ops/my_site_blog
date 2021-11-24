@@ -22,7 +22,7 @@ urlpatterns = [
     path('', include('blog.urls'))
 ]
 
-handler404 = "mysite.views.page_not_found_view"
+# handler404 = "mysite.views.page_not_found_view"
 
 # if settings.DEBUG:
 #     urlpatterns +=

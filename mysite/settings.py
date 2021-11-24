@@ -66,7 +66,8 @@ TEMPLATES = [
             ],
         },
         'DIRS': [
-            os.path.join(BASE_DIR, 'templates'), 'django.template.loaders.filesystem.Loader',
+            os.path.join(BASE_DIR, 'templates'),
+            'django.template.loaders.filesystem.Loader',
         ],
     },
 ]
